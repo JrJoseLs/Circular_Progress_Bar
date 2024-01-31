@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Progress Bar</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Progress Bar Circular -->
+        <div class="prbr-cl" num="11pts" style="--prcnt:11; --clr:#d4ff00; --bg:#2e2e2e;">
+            <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" class="prbr-cl-bg" />
+    
+                <circle cx="50" cy="50" r="45" class="prbr-cl-fill" />
+            </svg>
+        </div>
+    
+        <div class="prbr-cl" glow num="80%" style="--prcnt:80; --clr:#1f85d8; --bg:#2e2e2e;">
+            <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" class="prbr-cl-bg" />
+    
+                <circle cx="50" cy="50" r="45" class="prbr-cl-fill" />
+            </svg>
+        </div>
+    
+        <div class="prbr-cl" anim num="40px" style="--prcnt:40; --clr:#00ffbb; --bg:transparent;">
+            <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" class="prbr-cl-bg" />
+    
+                <circle cx="50" cy="50" r="45" class="prbr-cl-fill" />
+            </svg>
+        </div>
+    
+        <div class="prbr-cl" txt="FrontEnd" num="20%" style="--prcnt:20; --clr:#613daa; --bg:#2e2e2e;">
+            <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" class="prbr-cl-bg" />
+    
+                <circle cx="50" cy="50" r="45" class="prbr-cl-fill" />
+            </svg>
+        </div>
+    
+        <div class="prbr-cl" inner-bg num="00:01m" pulse style="--prcnt:90; --clr:#ff0000; --bg:#2e2e2e;">
+            <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" class="prbr-cl-bg" />
+    
+                <circle cx="50" cy="50" r="45" class="prbr-cl-fill" />
+            </svg>
+        </div>
+    
+        <div class="prbr-cl" txt="WerlynDev" style="--prcnt:30; --clr:#aa3d9d; --bg:#2e2e2e;">
+            <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" class="prbr-cl-bg" />
+    
+                <circle cx="50" cy="50" r="45" class="prbr-cl-fill" />
+            </svg>
+        </div>
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
